@@ -1,5 +1,4 @@
 import bookCover from '../assets/book-cover-2.jpeg'
-import bookCover2 from '../assets/book-cover-2.jpeg'
 
 export default function HeroSection() {
   return (

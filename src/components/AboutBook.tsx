@@ -1,4 +1,3 @@
-import bookCover from '../assets/book-cover-1.jpeg';
 
 interface AboutBookProps {
   className?: string;
