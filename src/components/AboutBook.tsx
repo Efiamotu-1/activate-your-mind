@@ -1,4 +1,6 @@
 
+import { Star, FileText, Check } from 'lucide-react'
+
 interface AboutBookProps {
   className?: string;
 }
@@ -91,9 +93,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center space-y-4">
               <div className="w-16 h-16 bg-burgundy-900 rounded-full flex items-center justify-center mx-auto">
-                <svg className="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                </svg>
+                <Star className="w-8 h-8 text-white" fill="currentColor" />
               </div>
               <h4 className="text-xl font-bold text-white">Powerful Declarations</h4>
               <p className="text-gray-300">Soul-rooted truths that go deeper than surface affirmations</p>
@@ -101,9 +101,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
             
             <div className="text-center space-y-4">
               <div className="w-16 h-16 bg-burgundy-900 rounded-full flex items-center justify-center mx-auto">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
-                </svg>
+                <FileText className="w-8 h-8 text-white" />
               </div>
               <h4 className="text-xl font-bold text-white">Interactive Format</h4>
               <p className="text-gray-300">Space to write, reflect, and create your own transformation</p>
@@ -111,9 +109,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
             
             <div className="text-center space-y-4">
               <div className="w-16 h-16 bg-burgundy-900 rounded-full flex items-center justify-center mx-auto">
-                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
-                </svg>
+                <Check className="w-8 h-8 text-white" />
               </div>
               <h4 className="text-xl font-bold text-white">Daily Practice</h4>
               <p className="text-gray-300">Build a new inner language and reality from the inside out</p>

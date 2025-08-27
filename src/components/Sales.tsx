@@ -1,11 +1,12 @@
-import bookCover from '../assets/book-cover-1.jpeg';
+import bookCover from '../assets/book-cover-1.jpeg'
+import { Check, ShieldCheck, Info } from 'lucide-react';
 
 interface SalesProps {
   className?: string;
   paypalLink?: string; // Will be provided by client
 }
 
-export default function Sales({ className = "", paypalLink = "#" }: SalesProps) {
+export default function Sales({ className = "" }: SalesProps) {
   return (
     <section className={`py-16 md:py-24 px-6 bg-gradient-to-b from-burgundy-900/30 to-black ${className}`}>
       <div className="max-w-full md:max-w-6xl mx-auto">
@@ -43,7 +44,7 @@ export default function Sales({ className = "", paypalLink = "#" }: SalesProps) 
             <div className="space-y-8">
               
               {/* Headline */}
-              <div>
+    <div>
                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-4">
                   Transform Your Life 
                   <span className="text-accent-400"> Today</span>
@@ -60,9 +61,7 @@ export default function Sales({ className = "", paypalLink = "#" }: SalesProps) 
                 <div className="space-y-4">
                   <div className="flex items-start space-x-4">
                     <div className="w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                      </svg>
+                      <Check className="w-4 h-4 text-black" />
                     </div>
                     <p className="text-gray-200 text-lg">
                       <span className="font-semibold text-white">Complete "Activate Your Mind" workbook</span> with over 100 powerful mental equivalents
@@ -71,9 +70,7 @@ export default function Sales({ className = "", paypalLink = "#" }: SalesProps) 
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                      </svg>
+                      <Check className="w-4 h-4 text-black" />
                     </div>
                     <p className="text-gray-200 text-lg">
                       <span className="font-semibold text-white">Interactive format</span> with space to write, reflect, and create your transformation
@@ -82,9 +79,7 @@ export default function Sales({ className = "", paypalLink = "#" }: SalesProps) 
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                      </svg>
+                      <Check className="w-4 h-4 text-black" />
                     </div>
                     <p className="text-gray-200 text-lg">
                       <span className="font-semibold text-white">Daily practice system</span> to rebuild your inner foundation from the ground up
@@ -93,9 +88,7 @@ export default function Sales({ className = "", paypalLink = "#" }: SalesProps) 
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                      </svg>
+                      <Check className="w-4 h-4 text-black" />
                     </div>
                     <p className="text-gray-200 text-lg">
                       <span className="font-semibold text-white">Lifetime access</span> to your personal transformation toolkit
@@ -131,9 +124,7 @@ export default function Sales({ className = "", paypalLink = "#" }: SalesProps) 
               {/* Guarantee */}
               <div className="text-center bg-black/30 rounded-xl p-4 border border-white/10">
                 <div className="flex items-center justify-center space-x-3 mb-2">
-                  <svg className="w-6 h-6 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10V11.5C15.4,11.5 16,12.4 16,13V16C16,16.6 15.6,17 15,17H9C8.4,17 8,16.6 8,16V13C8,12.4 8.4,11.5 9,11.5V10C9,8.6 10.6,7 12,7M12,8.2C11.2,8.2 10.2,8.7 10.2,10V11.5H13.8V10C13.8,8.7 12.8,8.2 12,8.2Z"/>
-                  </svg>
+                  <ShieldCheck className="w-6 h-6 text-accent-400" />
                   <span className="text-white font-bold">30-Day Money Back Guarantee</span>
                 </div>
                 <p className="text-gray-300 text-sm">
@@ -153,27 +144,21 @@ export default function Sales({ className = "", paypalLink = "#" }: SalesProps) 
           
           <div className="flex flex-wrap justify-center items-center gap-8 text-sm text-gray-500">
             <div className="flex items-center space-x-2">
-              <svg className="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
-              </svg>
+              <Check className="w-5 h-5 text-accent-400" />
               <span>Instant Digital Access</span>
             </div>
             <div className="flex items-center space-x-2">
-              <svg className="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"/>
-              </svg>
+              <ShieldCheck className="w-5 h-5 text-accent-400" />
               <span>Secure PayPal Checkout</span>
             </div>
             <div className="flex items-center space-x-2">
-              <svg className="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M13,9H11V7H13M13,17H11V11H13M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"/>
-              </svg>
+              <Info className="w-5 h-5 text-accent-400" />
               <span>24/7 Support</span>
             </div>
           </div>
         </div>
 
-      </div>
+    </div>
     </section>
   )
 }

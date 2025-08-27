@@ -1,3 +1,5 @@
+import { Star } from 'lucide-react'
+
 interface TestimonialsProps {
   className?: string;
 }
@@ -85,9 +87,7 @@ export default function Testimonials({ className = "" }: TestimonialsProps) {
               {/* Rating Stars */}
               <div className="flex items-center mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <svg key={i} className="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-                  </svg>
+                  <Star key={i} className="w-5 h-5 text-accent-400" fill="currentColor" />
                 ))}
               </div>
 
@@ -134,21 +134,15 @@ export default function Testimonials({ className = "" }: TestimonialsProps) {
           {/* Trust indicators */}
           {/* <div className="mt-8 flex flex-wrap justify-center items-center gap-6 text-sm text-gray-400">
             <div className="flex items-center space-x-2">
-              <svg className="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
-              </svg>
+              <Check className="w-5 h-5 text-accent-400" />
               <span>30-Day Money Back Guarantee</span>
             </div>
             <div className="flex items-center space-x-2">
-              <svg className="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M17,18C15.89,18 15,18.89 15,20A2,2 0 0,0 17,22A2,2 0 0,0 19,20C19,18.89 18.1,18 17,18M1,2V4H3L6.6,11.59L5.24,14.04C5.09,14.32 5,14.65 5,15A2,2 0 0,0 7,17H19V15H7.42A0.25,0.25 0 0,1 7.17,14.75C7.17,14.7 7.18,14.66 7.2,14.63L8.1,13H15.55C16.3,13 16.96,12.58 17.3,11.97L20.88,5H5.21L4.27,3H1M7,18C5.89,18 5,18.89 5,20A2,2 0 0,0 7,22A2,2 0 0,0 9,20C9,18.89 8.1,18 7,18Z"/>
-              </svg>
+              <ShoppingCart className="w-5 h-5 text-accent-400" />
               <span>Instant Digital Access</span>
             </div>
             <div className="flex items-center space-x-2">
-              <svg className="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,7C13.4,7 14.8,8.6 14.8,10V11.5C15.4,11.5 16,12.4 16,13V16C16,16.6 15.6,17 15,17H9C8.4,17 8,16.6 8,16V13C8,12.4 8.4,11.5 9,11.5V10C9,8.6 10.6,7 12,7M12,8.2C11.2,8.2 10.2,8.7 10.2,10V11.5H13.8V10C13.8,8.7 12.8,8.2 12,8.2Z"/>
-              </svg>
+              <ShieldCheck className="w-5 h-5 text-accent-400" />
               <span>Secure Payment</span>
             </div>
           </div> */}

@@ -1,4 +1,5 @@
-import bookCover from '../assets/book-cover-1.jpeg';
+import bookCover from '../assets/book-cover-1.jpeg'
+import { Play } from 'lucide-react';
 
 interface IntroVideoProps {
   className?: string;
@@ -43,9 +44,7 @@ export default function IntroVideo({ className = "" }: IntroVideoProps) {
                   
                   {/* Large Play Button */}
                   <div className="w-24 h-24 md:w-28 md:h-28 bg-accent-500 rounded-full flex items-center justify-center mx-auto hover:bg-accent-400 transition-all duration-300 group-hover:scale-110 shadow-2xl">
-                    <svg className="w-10 h-10 md:w-12 md:h-12 text-black ml-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z"/>
-                    </svg>
+                    <Play className="w-10 h-10 md:w-12 md:h-12 text-black ml-1" fill="currentColor" />
                   </div>
                   
                   {/* Video Title */}
@@ -99,7 +98,7 @@ export default function IntroVideo({ className = "" }: IntroVideoProps) {
           </div>
         </div>
 
-      </div>
+    </div>
     </section>
   )
 }

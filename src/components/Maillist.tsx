@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState } from 'react'
+import { Check, ShieldCheck } from 'lucide-react';
 
 interface MaillistProps {
   className?: string;
@@ -42,9 +43,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
         <div className="max-w-[1400px] mx-auto text-center">
           <div className="bg-gradient-to-br from-accent-500/20 to-burgundy-500/20 rounded-3xl p-12 border-2 border-accent-400/30">
             <div className="w-20 h-20 bg-accent-500 rounded-full flex items-center justify-center mx-auto mb-8">
-              <svg className="w-10 h-10 text-black" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-              </svg>
+              <Check className="w-10 h-10 text-black" />
             </div>
             <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
               Welcome to the Family! 🎉
@@ -92,9 +91,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
                 <div className="space-y-4">
                   <div className="flex items-start space-x-4">
                     <div className="w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                      </svg>
+                      <Check className="w-4 h-4 text-black" />
                     </div>
                     <p className="text-gray-200 text-lg">
                       <span className="font-semibold text-white">Free Chapter</span> from "Activate Your Mind" - Experience the transformation firsthand
@@ -103,9 +100,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                      </svg>
+                      <Check className="w-4 h-4 text-black" />
                     </div>
                     <p className="text-gray-200 text-lg">
                       <span className="font-semibold text-white">Daily Inspiration</span> - Powerful quotes and mental exercises delivered to your inbox
@@ -114,9 +109,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                      </svg>
+                      <Check className="w-4 h-4 text-black" />
                     </div>
                     <p className="text-gray-200 text-lg">
                       <span className="font-semibold text-white">Exclusive Bonuses</span> - Special content not available anywhere else
@@ -125,9 +118,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
                   
                   <div className="flex items-start space-x-4">
                     <div className="w-6 h-6 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                      <svg className="w-4 h-4 text-black" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
-                      </svg>
+                      <Check className="w-4 h-4 text-black" />
                     </div>
                     <p className="text-gray-200 text-lg">
                       <span className="font-semibold text-white">Early Access</span> to new releases, special offers, and community events
@@ -175,7 +166,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
                 </div>
 
                 {/* Email Field */}
-                <div>
+    <div>
                   <label htmlFor="email" className="block text-white font-medium mb-2">
                     Email Address
                   </label>
@@ -211,15 +202,11 @@ export default function Maillist({ className = "" }: MaillistProps) {
               <div className="text-center space-y-4">
                 <div className="flex items-center justify-center space-x-6 text-sm text-gray-400">
                   <div className="flex items-center space-x-2">
-                    <svg className="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
-                    </svg>
+                    <Check className="w-5 h-5 text-accent-400" />
                     <span>No Spam Ever</span>
                   </div>
                   <div className="flex items-center space-x-2">
-                    <svg className="w-5 h-5 text-accent-400" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"/>
-                    </svg>
+                    <ShieldCheck className="w-5 h-5 text-accent-400" />
                     <span>Instant Access</span>
                   </div>
                 </div>
@@ -230,7 +217,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
         </div>
 
       
-      </div>
+    </div>
     </section>
   )
 }
