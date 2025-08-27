@@ -7,7 +7,7 @@ interface IntroVideoProps {
 export default function IntroVideo({ className = "" }: IntroVideoProps) {
   return (
     <section className={`py-16 md:py-24 px-6 ${className}`}>
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto px-4">
         
         {/* Section Header */}
         <div className="text-center mb-12">
@@ -89,9 +89,12 @@ export default function IntroVideo({ className = "" }: IntroVideoProps) {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-accent-500 hover:bg-accent-400 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl">
-              Get the Book Now - $19.95
-            </button>
+          <a 
+                href="#sales" 
+                className="bg-burgundy-900 hover:bg-burgundy-400 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
+              >
+                Get the Book Now - $19.95
+              </a>
             
           </div>
         </div>

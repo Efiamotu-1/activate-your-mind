@@ -6,7 +6,7 @@ interface AboutBookProps {
 export default function AboutBook({ className = "" }: AboutBookProps) {
   return (
     <section className={`py-16 md:py-24 px-6 ${className}`}>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-full mx-auto">
         
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -45,7 +45,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
               </p>
               
               <p>
-                This rhythm—of <span className="text-burgundy-300 font-semibold">reading and writing, receiving and creating</span>—helps you develop a new inner language. A new way of seeing yourself. A new reality, built from the inside out.
+                This rhythm of <span className="text-accent-300 font-semibold">reading and writing, receiving and creating</span>—helps you develop a new inner language. A new way of seeing yourself. A new reality, built from the inside out.
               </p>
             </div>
 
@@ -63,20 +63,20 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
             <div className="text-center lg:text-left">
               <blockquote className="text-2xl md:text-3xl font-bold text-white leading-tight">
                 <span className="text-accent-400">"Speak it.</span>{" "}
-                <span className="text-burgundy-300">Write it.</span>{" "}
-                <span className="text-burnt-300">Believe it.</span>{" "}
+                <span className="text-accent-400">Write it.</span>{" "}
+                <span className="text-accent-400">Believe it.</span>{" "}
                 <span className="text-white">And watch yourself become it."</span>
               </blockquote>
             </div>
 
             {/* CTA Buttons */}
             {/* <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <button className="bg-accent-500 hover:bg-accent-400 text-black px-8 py-4 rounded-xl text-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl">
-                Start Your Transformation - $19.95
-              </button>
-              <button className="text-white/80 hover:text-white underline text-lg font-medium">
-                Read a free sample →
-              </button>
+                                      <button className="bg-accent-500 hover:bg-accent-400 text-black px-8 py-4 rounded-xl text-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer">
+                          Start Your Transformation - $19.95
+                        </button>
+                        <button className="text-white/80 hover:text-white underline text-lg font-medium cursor-pointer transition-colors">
+                          Read a free sample →
+                        </button>
             </div> */}
 
           </div>
@@ -90,7 +90,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-accent-500 rounded-full flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 bg-burgundy-900 rounded-full flex items-center justify-center mx-auto">
                 <svg className="w-8 h-8 text-black" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
                 </svg>
@@ -100,7 +100,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
             </div>
             
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-burgundy-500 rounded-full flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 bg-burgundy-900 rounded-full flex items-center justify-center mx-auto">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z"/>
                 </svg>
@@ -110,7 +110,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
             </div>
             
             <div className="text-center space-y-4">
-              <div className="w-16 h-16 bg-burnt-500 rounded-full flex items-center justify-center mx-auto">
+              <div className="w-16 h-16 bg-burgundy-900 rounded-full flex items-center justify-center mx-auto">
                 <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12A8,8 0 0,1 12,20A8,8 0 0,1 4,12A8,8 0 0,1 12,4M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z"/>
                 </svg>
@@ -121,7 +121,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
           </div>
         </div>
 
-      </div>
+    </div>
     </section>
   )
 }

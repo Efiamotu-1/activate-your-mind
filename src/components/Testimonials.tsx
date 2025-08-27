@@ -62,7 +62,7 @@ export default function Testimonials({ className = "" }: TestimonialsProps) {
 
   return (
     <section className={`py-16 md:py-24 md:px-12 px-6  ${className}`}>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-full mx-auto">
         
         {/* Section Header */}
         <div className="text-center mb-16">
@@ -123,12 +123,12 @@ export default function Testimonials({ className = "" }: TestimonialsProps) {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="bg-accent-500 hover:bg-accent-400 text-black px-10 py-5 rounded-xl text-xl font-black transition-all duration-200 hover:scale-105 shadow-2xl uppercase tracking-wide">
-              Get Your Copy Now - $19.95
-            </button>
-            <button className="text-white/80 hover:text-white underline text-lg font-medium">
-              Read more reviews →
-            </button>
+                                    <button className="bg-accent-500 hover:bg-accent-400 text-black px-10 py-5 rounded-xl text-xl font-black transition-all duration-200 hover:scale-105 shadow-2xl uppercase tracking-wide cursor-pointer">
+                          Get Your Copy Now - $19.95
+                        </button>
+                        <button className="text-white/80 hover:text-white underline text-lg font-medium cursor-pointer transition-colors">
+                          Read more reviews →
+                        </button>
           </div>
 
           {/* Trust indicators */}

@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="min-h-screen relative overflow-hidden bg-gradient-to-br from-gray-900 via-black to-burgundy-900">
+    <div className="min-h-screen w-full relative overflow-x-hidden bg-gradient-to-br from-gray-900 via-black to-burgundy-900">
       {/* Atmospheric background elements */}
       {/* <div className="absolute inset-0">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-burgundy-500/10 rounded-full blur-3xl"></div>
@@ -21,7 +21,7 @@ function App() {
       <Navigation />
       
               {/* Hero Section */}
-        <section className="relative z-10 md:m-6 mx-2 rounded-lg bg-gradient-to-r from-burgundy-500/30 via-burnt-500/30 to-accent-500/30">
+        <section className="relative z-10 md:m-6 mx-2 rounded-lg bg-gradient-to-r from-burgundy-500/30 via-burnt-500/30 to-accent-500/30 w-auto">
           <HeroSection />
         </section>
 

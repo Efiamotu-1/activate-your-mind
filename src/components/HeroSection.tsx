@@ -2,8 +2,8 @@ import bookCover from '../assets/book-cover-2.jpeg'
 
 export default function HeroSection() {
   return (
-    <div className='p-6 md:mt-20 mt-12'>
-      <div className="max-w-7xl mx-auto w-full">
+    <div className='p-6 mt-20'>
+      <div className="max-w-full md:max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             
             {/* Left Column - Dominant Typography like Tony's */}
@@ -13,7 +13,7 @@ export default function HeroSection() {
                 The Exact Mental Scripts That Turn Life's{" "}
                 <span className="text-accent-400 drop-shadow-2xl">Worst Moments</span>{" "}
                 Into Your{" "}
-                <span className="text-burnt-400 drop-shadow-2xl">Greatest Comebacks</span>
+                <span className="text-accent-400 drop-shadow-2xl">Greatest Comebacks</span>
               </h1>
               
               {/* Subheadline */}
@@ -21,22 +21,27 @@ export default function HeroSection() {
                 When affirmations fail and motivation fades, these step-by-step mental exercises give you the precise words and actions to rebuild your confidence, clarity, and inner strength.
               </p>
               
-              {/* Single Primary CTA - Tony's approach */}
-              <div className="flex flex-col md:flex-row gap-4 items-center">
-
-                <div className="pt-4">
-                    <button className="bg-accent-500 hover:bg-accent-400 text-white px-12 py-6 rounded-xl text-2xl font-blac transition-all duration-200 shadow-2xl hover:shadow-accent-500/25 hover:scale-105 transform uppercase tracking-wide">
-                    Buy the Book Now - $19.95
-                    </button>
-                </div>
-                
-                {/* Secondary action - subtle */}
-                <div className="pt-4">
-                    <button className="text-white/80 hover:text-white text-lg font-medium">
-                    Join Newsletter
-                    </button>
-                </div>
-              </div>
+              <div className="pt-2 mb-2">
+          <div className="text-center">
+            <h3 className="text-xl font-bold text-white mb-4">
+              Ready to Transform Your Mindset?
+            </h3>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <a 
+                href="#sales" 
+                className="bg-black hover:bg-black/80 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
+              >
+                Buy Now - $19.95
+              </a>
+              <a 
+                href="#maillist" 
+                className="bg-black hover:bg-black/80 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
+              >
+                Join Newsletter
+              </a>
+            </div>
+          </div>
+        </div>
               
               {/* Social Proof - minimal like Tony's */}
               <div className="pt-4">

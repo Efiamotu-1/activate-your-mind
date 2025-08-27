@@ -39,7 +39,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
   if (isSubmitted) {
     return (
       <section className={`py-16 md:py-24 px-6 bg-gradient-to-b from-burgundy-900/40 to-black ${className}`}>
-        <div className="max-w-4xl mx-auto text-center">
+        <div className="max-w-[1400px] mx-auto text-center">
           <div className="bg-gradient-to-br from-accent-500/20 to-burgundy-500/20 rounded-3xl p-12 border-2 border-accent-400/30">
             <div className="w-20 h-20 bg-accent-500 rounded-full flex items-center justify-center mx-auto mb-8">
               <svg className="w-10 h-10 text-black" fill="currentColor" viewBox="0 0 24 24">
@@ -63,7 +63,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
 
   return (
     <section className={`py-16 md:py-24 px-6 bg-gradient-to-b from-burgundy-900/40 to-black ${className}`}>
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-full md:max-w-6xl mx-auto">
         
         {/* Main Container */}
         <div className="bg-gradient-to-br from-burgundy-800/60 to-burnt-800/60 rounded-3xl p-8 md:p-12 border-2 border-accent-400/30 relative overflow-hidden">
@@ -195,7 +195,7 @@ export default function Maillist({ className = "" }: MaillistProps) {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-accent-500 hover:bg-accent-400 disabled:bg-accent-600 text-white px-8 py-4 rounded-xl text-xl font-black transition-all duration-200 hover:scale-105 shadow-2xl hover:shadow-accent-500/25 uppercase tracking-wide disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full bg-accent-500 hover:bg-accent-400 disabled:bg-accent-600 text-white px-8 py-4 rounded-xl text-md md:text-2xl transition-all duration-200 hover:scale-105 shadow-2xl hover:shadow-accent-500/25 uppercase tracking-wide disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? 'Sending...' : 'Get Free Chapter + Bonuses'}
                 </button>

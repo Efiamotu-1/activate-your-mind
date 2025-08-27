@@ -7,7 +7,7 @@ interface AuthorBioProps {
 export default function AuthorBio({ className = "" }: AuthorBioProps) {
   return (
     <section className={`py-16 md:py-24 px-6 bg-gradient-to-b from-black to-burgundy-900/40 ${className}`}>
-      <div className="max-w-7xl mx-auto">
+      <div className="max-w-full md:max-w-7xl mx-auto">
         
         {/* Section Header */}
         <div className="text-center mb-16">

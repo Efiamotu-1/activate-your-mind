@@ -8,7 +8,7 @@ interface SalesProps {
 export default function Sales({ className = "", paypalLink = "#" }: SalesProps) {
   return (
     <section className={`py-16 md:py-24 px-6 bg-gradient-to-b from-burgundy-900/30 to-black ${className}`}>
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-full md:max-w-6xl mx-auto">
         
         {/* Main Sales Container */}
         <div className="bg-gradient-to-br from-burgundy-800/60 to-burnt-800/60 rounded-3xl p-8 md:p-12 border-2 border-accent-400/30 relative overflow-hidden">
@@ -116,12 +116,12 @@ export default function Sales({ className = "", paypalLink = "#" }: SalesProps) 
 
               {/* Main CTA Button */}
               <div className="space-y-4">
-                <a 
-                  href={paypalLink}
-                  className="block w-full bg-accent-500 hover:bg-accent-400 text-black text-center px-8 py-6 rounded-2xl text-2xl font-black transition-all duration-200 hover:scale-105 shadow-2xl hover:shadow-accent-500/25 uppercase tracking-wide"
+              <button
+                  type="submit"
+                  className="w-full bg-accent-500 hover:bg-accent-400 disabled:bg-accent-600 text-white px-8 py-4 rounded-xl text-md md:text-2xl  transition-all duration-200 hover:scale-105 shadow-2xl hover:shadow-accent-500/25 uppercase tracking-wide disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   Get Instant Access - $19.95
-                </a>
+                </button>
                 
                 <p className="text-center text-gray-400 text-sm">
                   Secure payment via PayPal • Instant digital delivery
