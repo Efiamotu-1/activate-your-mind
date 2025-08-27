@@ -45,7 +45,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: dark only;
+  /* Do not declare color-scheme to avoid OS light/dark overrides */
   color: #ffffff;
   background-color: #000000;
 
@@ -55,24 +55,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Force dark mode and prevent browser overrides */
-* {
-  color-scheme: dark only !important;
-}
-
 /* Ensure consistent dark theme across all browsers */
 html, body {
-  background-color: #000000 !important;
-  color: #ffffff !important;
-  color-scheme: dark only !important;
-}
-
-/* Prevent any light mode media query overrides */
-@media (prefers-color-scheme: light) {
-  :root, html, body, * {
-    color-scheme: dark only !important;
-    background-color: #000000 !important;
-  }
+  background-color: #000000;
+  color: #ffffff;
 }
 
 a {

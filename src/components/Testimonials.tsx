@@ -12,7 +12,7 @@ export default function Testimonials({ className = "" }: TestimonialsProps) {
       title: "Clinical Psychologist & Author",
       company: "Mind Wellness Institute",
       image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face",
-      quote: "Stacey Craft has created something truly remarkable. This isn't just another self-help book—it's a systematic approach to mental transformation that I recommend to my clients. The 'mental equivalents' methodology is both scientifically sound and spiritually grounding.",
+      quote: "Stacey Craft has created something truly remarkable. This isn't just another self-help book it's a systematic approach to mental transformation that I recommend to my clients. The 'mental equivalents' methodology is both scientifically sound and spiritually grounding.",
       rating: 5
     },
     {

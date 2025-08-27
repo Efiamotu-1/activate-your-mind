@@ -71,7 +71,7 @@ export default function AuthorBio({ className = "" }: AuthorBioProps) {
                 From Brokenness to Breakthrough
               </h4>
               <p className="text-gray-200 leading-relaxed mb-4">
-                Stacey's credibility arises from his deep personal journey of overcoming brokenness, setbacks, and inner struggle. He openly acknowledges seasons of personal challenge—broken, lost, and "sometimes unable to hold himself up"—and attributes his profound transformation to spiritual faith, mentorship, and the supportive love of friends and family.
+                Stacey's credibility arises from his deep personal journey of overcoming brokenness, setbacks, and inner struggle. He openly acknowledges seasons of personal challenge broken, lost, and "sometimes unable to hold himself up" and attributes his profound transformation to spiritual faith, mentorship, and the supportive love of friends and family.
               </p>
               <p className="text-gray-200 leading-relaxed">
                 Drawing inspiration from his own process of mental rebuilding, Stacey designed his workbook as a systematic guide to help others not only survive life's hardships but rebuild to full strength and thrive.
@@ -94,7 +94,7 @@ export default function AuthorBio({ className = "" }: AuthorBioProps) {
                 A Pioneer in Mental Health Redefinition
               </h4>
               <p className="text-gray-200 leading-relaxed">
-                Through <span className="text-accent-400 font-semibold">"Activate Your Mind,"</span> he establishes himself as a pioneer in redefining mental health, focusing on proactive positivity, faith, and mindful transformation—making him a trusted voice in the field of mindset creation and metaphysical self-healing.
+                Through <span className="text-accent-400 font-semibold">"Activate Your Mind,"</span> he establishes himself as a pioneer in redefining mental health, focusing on proactive positivity, faith, and mindful transformation making him a trusted voice in the field of mindset creation and metaphysical self-healing.
               </p>
             </div>
 

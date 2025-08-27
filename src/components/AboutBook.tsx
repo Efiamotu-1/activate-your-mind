@@ -35,26 +35,26 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
             {/* Main Description */}
             <div className="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed">
               <p>
-                <span className="text-accent-400 font-bold">Activate Your Mind</span> isn't just another book—it's a daily invitation to real transformation. Inside, you'll find powerful declarations meant to help you align your thoughts, your emotions, and your spirit with the life you truly want.
+                <span className="text-accent-400 font-bold">Activate Your Mind</span> isn't just another book it's a daily invitation to real transformation. Inside, you'll find powerful declarations meant to help you align your thoughts, your emotions, and your spirit with the life you truly want.
               </p>
               
               <p>
-                These aren't surface-level affirmations—they're <span className="text-white font-semibold">deep, soul-rooted truths</span> designed to spark healing, restore vision, and awaken your inner strength.
+                These aren't surface-level affirmations they're <span className="text-white font-semibold">deep, soul-rooted truths</span> designed to spark healing, restore vision, and awaken your inner strength.
               </p>
               
               <p>
-                Each page is a conversation. One side speaks directly to your soul—offering mental shifts and spiritual reminders. The other side is for you: a space to write, reflect, respond, and speak life in your own voice.
+                Each page is a conversation. One side speaks directly to your soul offering mental shifts and spiritual reminders. The other side is for you: a space to write, reflect, respond, and speak life in your own voice.
               </p>
               
               <p>
-                This rhythm of <span className="text-accent-300 font-semibold">reading and writing, receiving and creating</span>—helps you develop a new inner language. A new way of seeing yourself. A new reality, built from the inside out.
+                This rhythm of <span className="text-accent-300 font-semibold">reading and writing, receiving and creating</span> helps you develop a new inner language. A new way of seeing yourself. A new reality, built from the inside out.
               </p>
             </div>
 
             {/* Personal Message */}
             <div className="bg-gradient-to-r from-burgundy-900/50 to-burnt-900/50 rounded-xl p-6 border border-accent-400/30">
               <p className="text-lg md:text-xl text-gray-200 leading-relaxed mb-4">
-                Wherever you are in your journey—whether you're healing, rebuilding, or stretching toward something greater—this book will walk with you.
+                Wherever you are in your journey whether you're healing, rebuilding, or stretching toward something greater this book will walk with you.
               </p>
               <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
                 It will gently remind you of your power, call you to higher thoughts, and encourage you to speak life over yourself daily.
