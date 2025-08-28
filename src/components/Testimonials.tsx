@@ -69,7 +69,7 @@ export default function Testimonials({ className = "" }: TestimonialsProps) {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-black text-white mb-6 leading-tight">
-            What Industry <span className="text-accent-400">Experts</span> Are Saying
+            What <span className="text-accent-400">Industry Experts</span> Are Saying
           </h2>
           <p className="text-xl md:text-2xl text-gray-300 leading-relaxed max-w-4xl mx-auto mb-8">
             Leading professionals in psychology, coaching, and spiritual development praise Stacey Craft's groundbreaking approach

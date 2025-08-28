@@ -61,11 +61,11 @@ export default function Maillist({ className = "" }: MaillistProps) {
   }
 
   return (
-    <section className={`py-16 md:py-24 px-6 bg-gradient-to-b from-burgundy-900/40 to-black ${className}`}>
+    <section id="maillist" className={`py-16 md:py-24 px-6 bg-gradient-to-b from-burgundy-900/40 to-black ${className}`}>
       <div className="max-w-full md:max-w-6xl mx-auto">
         
         {/* Main Container */}
-        <div className="bg-gradient-to-br from-burgundy-800/60 to-burnt-800/60 rounded-3xl p-8 md:p-12 border-2 border-accent-400/30 relative overflow-hidden">
+        <div className="bg-gradient-to-br from-burgundy-900/30 to-burnt-900/30 rounded-3xl p-8 md:p-12 border-2 border-accent-400/30 relative overflow-hidden">
           
           {/* Background decorative elements */}
           <div className="absolute top-0 left-0 w-64 h-64 bg-accent-400/10 rounded-full blur-3xl"></div>

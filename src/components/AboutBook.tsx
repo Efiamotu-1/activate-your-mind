@@ -27,13 +27,13 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
             
             {/* Opening Questions */}
             <div className="space-y-4">
-              <p className="text-xl md:text-2xl text-accent-300 font-medium leading-relaxed italic">
+              <p className="text-xl md:text-2xl text-accent-300 font-medium leading-relaxed italic text-justify">
                 What if your thoughts could actually rewrite your life? What if your mind became the place where miracles, breakthroughs, and unshakable peace begin?
               </p>
             </div>
 
             {/* Main Description */}
-            <div className="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed">
+            <div className="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed text-justify">
               <p>
                 <span className="text-accent-400 font-bold">Activate Your Mind</span> isn't just another book it's a daily invitation to real transformation. Inside, you'll find powerful declarations meant to help you align your thoughts, your emotions, and your spirit with the life you truly want.
               </p>
@@ -62,7 +62,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
             </div>
 
             {/* Call to Action Quote */}
-            <div className="text-center lg:text-left">
+            <div className="text-center">
               <blockquote className="text-2xl md:text-3xl font-bold text-white leading-tight">
                 <span className="text-accent-400">"Speak it.</span>{" "}
                 <span className="text-accent-400">Write it.</span>{" "}

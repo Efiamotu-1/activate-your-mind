@@ -90,7 +90,7 @@ export default function IntroVideo({ className = "" }: IntroVideoProps) {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a 
                 href="#sales" 
-                className="bg-burgundy-900 hover:bg-burgundy-400 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
+                className="bg-burgundy-900 hover:bg-burgundy-900/80 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
               >
                 Get the Book Now - $19.95
               </a>

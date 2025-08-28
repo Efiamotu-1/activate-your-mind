@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
           
           {/* Quick Links */}
-          <div>
+          <div className="text-center md:text-left">
             <h3 className="text-white font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="#about" className="text-white hover:text-accent-400 transition-colors cursor-pointer">About the Book</a></li>
@@ -44,13 +44,13 @@ export default function Footer() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <a 
                 href="#sales" 
-                className="bg-burgundy-900 hover:bg-burgundy-400 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
+                className="bg-burgundy-900 hover:bg-burgundy-900/80 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
               >
                 Buy Now - $19.95
               </a>
               <a 
                 href="#maillist" 
-                className="bg-burgundy-900 hover:bg-burgundy-500 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
+                className="bg-burgundy-900 hover:bg-burgundy-900/80 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
               >
                 Join Newsletter
               </a>

@@ -42,20 +42,20 @@ export default function AuthorBio({ className = "" }: AuthorBioProps) {
           </div>
           
           {/* Right Column - Author Bio */}
-          <div className="order-2 lg:order-2 space-y-8">
+          <div className="order-2 lg:order-2 space-y-8 text-justify">
             
             {/* Professional Title & Credentials */}
             <div className="space-y-4">
               <h3 className="text-2xl md:text-3xl font-bold text-accent-400">
                 Influential Author • Mindset Coach • Creator
               </h3>
-              <p className="text-xl md:text-2xl text-white font-semibold">
+              <p className="text-xl md:text-2xl text-white font-semibold text-justify">
                 Creator of the "Mind Over Matter Workbook"
               </p>
             </div>
 
             {/* Main Biography */}
-            <div className="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed">
+            <div className="space-y-6 text-lg md:text-xl text-gray-300 leading-relaxed text-justify">
               <p>
                 Stacey Craft is an influential author, mindset coach, and creator of the <span className="text-accent-400 font-semibold">"Mind Over Matter Workbook,"</span> known for empowering individuals to achieve mental clarity, resilience, and intentional living through innovative self-development exercises and metaphysical teachings.
               </p>
@@ -66,7 +66,7 @@ export default function AuthorBio({ className = "" }: AuthorBioProps) {
             </div>
 
             {/* Personal Journey & Credibility */}
-            <div className="bg-gradient-to-r from-burgundy-900/50 to-burnt-900/50 rounded-xl p-6 border border-accent-400/30">
+            <div className="bg-gradient-to-br from-burgundy-900/30 to-burnt-900/30 rounded-xl p-6 border border-accent-400/30">
               <h4 className="text-xl md:text-2xl font-bold text-white mb-4">
                 From Brokenness to Breakthrough
               </h4>
@@ -89,7 +89,7 @@ export default function AuthorBio({ className = "" }: AuthorBioProps) {
             </div>
 
             {/* Pioneer Status */}
-            <div className="bg-gradient-to-r from-accent-900/30 to-burgundy-900/30 rounded-xl p-6 border border-accent-400/30">
+            <div className="bg-gradient-to-br from-burgundy-900/30 to-burnt-900/30 rounded-xl p-6 border border-accent-400/30">
               <h4 className="text-xl md:text-2xl font-bold text-white mb-4">
                 A Pioneer in Mental Health Redefinition
               </h4>
