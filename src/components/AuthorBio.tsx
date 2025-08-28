@@ -46,10 +46,10 @@ export default function AuthorBio({ className = "" }: AuthorBioProps) {
             
             {/* Professional Title & Credentials */}
             <div className="space-y-4">
-              <h3 className="text-2xl md:text-3xl font-bold text-accent-400">
+              <h3 className="text-2xl md:text-3xl font-bold text-accent-400 text-center">
                 Influential Author • Mindset Coach • Creator
               </h3>
-              <p className="text-xl md:text-2xl text-white font-semibold text-justify">
+              <p className="text-xl md:text-2xl text-white font-semibold text-center">
                 Creator of the "Mind Over Matter Workbook"
               </p>
             </div>
@@ -61,13 +61,13 @@ export default function AuthorBio({ className = "" }: AuthorBioProps) {
               </p>
               
               <p>
-                Her work bridges <span className="text-white font-semibold">contemporary psychology, spiritual principles, and practical manifestation techniques</span>, providing over 100 thought-provoking categories and tools that help readers re-engineer their mindsets for healing, growth, and proactive transformation.
+                His work bridges <span className="text-white font-semibold">contemporary psychology, spiritual principles, and practical manifestation techniques</span>, providing over 100 thought-provoking categories and tools that help readers re-engineer their mindsets for healing, growth, and proactive transformation.
               </p>
             </div>
 
             {/* Personal Journey & Credibility */}
             <div className="bg-gradient-to-br from-burgundy-900/30 to-burnt-900/30 rounded-xl p-6 border border-accent-400/30">
-              <h4 className="text-xl md:text-2xl font-bold text-white mb-4">
+              <h4 className="text-xl md:text-2xl font-bold text-white mb-4 text-center">
                 From Brokenness to Breakthrough
               </h4>
               <p className="text-gray-200 leading-relaxed mb-4">
@@ -80,7 +80,7 @@ export default function AuthorBio({ className = "" }: AuthorBioProps) {
 
             {/* Expertise & Collaboration */}
             <div className="space-y-4">
-              <h4 className="text-xl md:text-2xl font-bold text-white">
+              <h4 className="text-xl md:text-2xl font-bold text-white text-center">
                 Expert Collaboration & Innovation
               </h4>
               <p className="text-gray-300 leading-relaxed">
@@ -90,17 +90,17 @@ export default function AuthorBio({ className = "" }: AuthorBioProps) {
 
             {/* Pioneer Status */}
             <div className="bg-gradient-to-br from-burgundy-900/30 to-burnt-900/30 rounded-xl p-6 border border-accent-400/30">
-              <h4 className="text-xl md:text-2xl font-bold text-white mb-4">
+              <h4 className="text-xl md:text-2xl font-bold text-white mb-4 text-center">
                 A Pioneer in Mental Health Redefinition
               </h4>
               <p className="text-gray-200 leading-relaxed">
-                Through <span className="text-accent-400 font-semibold">"Activate Your Mind,"</span> he establishes himself as a pioneer in redefining mental health, focusing on proactive positivity, faith, and mindful transformation making him a trusted voice in the field of mindset creation and metaphysical self-healing.
+                Through <span className="text-accent-400 font-semibold ">"Activate Your Mind,"</span> he establishes himself as a pioneer in redefining mental health, focusing on proactive positivity, faith, and mindful transformation making him a trusted voice in the field of mindset creation and metaphysical self-healing.
               </p>
             </div>
 
             {/* Call to Action */}
             <div className="text-center lg:text-left pt-6">
-              <blockquote className="text-2xl md:text-3xl font-bold text-white leading-tight italic">
+              <blockquote className="text-2xl md:text-3xl font-bold text-white leading-tight italic text-center">
                 <span className="text-accent-400">"Your mind is the place where miracles, breakthroughs, and unshakable peace begin."</span>
               </blockquote>
             </div>

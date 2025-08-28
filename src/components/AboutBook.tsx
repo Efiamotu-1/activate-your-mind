@@ -27,7 +27,7 @@ export default function AboutBook({ className = "" }: AboutBookProps) {
             
             {/* Opening Questions */}
             <div className="space-y-4">
-              <p className="text-xl md:text-2xl text-accent-300 font-medium leading-relaxed italic text-justify">
+              <p className="text-xl md:text-2xl text-accent-300 font-medium leading-relaxed italic text-center">
                 What if your thoughts could actually rewrite your life? What if your mind became the place where miracles, breakthroughs, and unshakable peace begin?
               </p>
             </div>
