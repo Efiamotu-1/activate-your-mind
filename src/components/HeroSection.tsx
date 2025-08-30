@@ -1,4 +1,4 @@
-import bookCover from '../assets/book-cover-2.jpeg'
+import bookCover from '../assets/book-cover-2.jpg'
 
 export default function HeroSection() {
   return (
@@ -10,10 +10,8 @@ export default function HeroSection() {
             <div className="order-2 lg:order-1 space-y-8">
               {/* Massive Headline - Tony Robbins style */}
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.85] tracking-tight">
-                The Exact Mental Scripts That Turn Life's{" "}
-                <span className="text-accent-400 drop-shadow-2xl">Worst Moments</span>{" "}
-                Into Your{" "}
-                <span className="text-accent-400 drop-shadow-2xl">Greatest Comebacks</span>
+                The Exact Mental Scripts That Turn Life's Worst Moments
+                Into Your Greatest Comeback
               </h1>
               
               {/* Subheadline */}
@@ -31,7 +29,7 @@ export default function HeroSection() {
                 href="#sales" 
                 className="bg-black hover:bg-black/80 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
               >
-                Buy Now - $19.95
+                Buy Now - $17.99
               </a>
               <a 
                 href="#maillist" 

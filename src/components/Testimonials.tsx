@@ -29,7 +29,7 @@ export default function Testimonials({ className = "" }: TestimonialsProps) {
       name: "Dr. Elena Rodriguez",
       title: "Neuroscientist & Wellness Expert",
       company: "Brain Health Research Center",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face",
       quote: "From a neuroscience perspective, Craft's approach to mental restructuring aligns perfectly with what we know about neuroplasticity. The daily practice format helps rewire neural pathways for lasting positive change. Brilliant work.",
       rating: 5
     },

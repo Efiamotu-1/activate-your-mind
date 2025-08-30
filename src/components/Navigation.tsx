@@ -16,7 +16,7 @@ export default function Navigation({ className = "" }: NavigationProps) {
         {/* Right side - Clean CTA like Tony's */}
         {/* <div className="hidden md:flex items-center">
           <button className="bg-accent-500 hover:bg-accent-400 text-black px-6 py-3 rounded-lg font-bold text-sm transition-all duration-200 hover:scale-105">
-            BUY NOW - $19.95
+            BUY NOW - $17.99
           </button>
         </div> */}
         

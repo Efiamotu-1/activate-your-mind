@@ -46,7 +46,7 @@ export default function Footer() {
                 href="#sales" 
                 className="bg-burgundy-900 hover:bg-burgundy-900/80 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
               >
-                Buy Now - $19.95
+                Buy Now - $17.99
               </a>
               <a 
                 href="#maillist" 
