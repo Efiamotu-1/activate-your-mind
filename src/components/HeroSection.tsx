@@ -10,8 +10,10 @@ export default function HeroSection() {
             <div className="order-2 lg:order-1 space-y-8">
               {/* Massive Headline - Tony Robbins style */}
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.85] tracking-tight">
-                The Exact Mental Scripts That Turn Life's Worst Moments
-                Into Your Greatest Comeback
+                The Exact Mental Scripts That Turn Life's{" "}
+                <span className="text-accent-400 drop-shadow-2xl">Worst Moments</span>{" "}
+                Into Your{" "}
+                <span className="text-accent-400 drop-shadow-2xl">Greatest Comebacks</span>
               </h1>
               
               {/* Subheadline */}

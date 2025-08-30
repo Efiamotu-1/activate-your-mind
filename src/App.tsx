@@ -21,7 +21,7 @@ function App() {
       <Navigation />
       
               {/* Hero Section */}
-        <section className="relative z-10 md:m-6 mx-2 rounded-lg bg-gradient-to-r from-burgundy-500/30 via-burnt-500/30 to-accent-500/30 w-auto">
+        <section className="relative z-10 md:m-6 mx-2 rounded-lg bg-gradient-to-br from-burgundy-900/30 to-burnt-900/30 w-auto">
           <HeroSection />
         </section>
 

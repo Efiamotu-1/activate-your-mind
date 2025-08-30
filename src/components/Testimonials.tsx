@@ -124,7 +124,7 @@ export default function Testimonials({ className = "" }: TestimonialsProps) {
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                                     <button className="bg-accent-500 hover:bg-accent-400 text-black px-10 py-5 rounded-xl text-xl font-black transition-all duration-200 hover:scale-105 shadow-2xl uppercase tracking-wide cursor-pointer">
-                          Get Your Copy Now - $19.95
+                          Get Your Copy Now - $17.99
                         </button>
                         <button className="text-white/80 hover:text-white underline text-lg font-medium cursor-pointer transition-colors">
                           Read more reviews →

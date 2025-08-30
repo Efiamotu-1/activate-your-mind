@@ -92,7 +92,7 @@ export default function IntroVideo({ className = "" }: IntroVideoProps) {
                 href="#sales" 
                 className="bg-burgundy-900 hover:bg-burgundy-900/80 text-white px-8 py-3 rounded-lg font-bold transition-all duration-200 hover:scale-105 shadow-xl cursor-pointer"
               >
-                Get the Book Now - $19.95
+                Get the Book Now - $17.99
               </a>
             
           </div>

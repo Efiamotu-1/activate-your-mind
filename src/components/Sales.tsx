@@ -34,7 +34,7 @@ export default function Sales({ className = "" }: SalesProps) {
                   
                   {/* Price badge */}
                   <div className="absolute -top-4 -right-4 bg-accent-500 text-black px-6 py-3 rounded-full font-black text-xl shadow-2xl animate-pulse">
-                    Only $19.95
+                    Only $17.99
                   </div>
                 </div>
               </div>
@@ -103,7 +103,7 @@ export default function Sales({ className = "" }: SalesProps) {
                   🔥 Limited Time: Special Launch Price
                 </p>
                 <p className="text-gray-200">
-                  Regular price $39.95 - Get it now for only <span className="text-accent-400 font-bold text-xl">$19.95</span>
+                  Regular price $39.95 - Get it now for only <span className="text-accent-400 font-bold text-xl">$17.99</span>
                 </p>
               </div>
 
@@ -113,7 +113,7 @@ export default function Sales({ className = "" }: SalesProps) {
                   type="submit"
                   className="w-full bg-accent-500 hover:bg-accent-400 disabled:bg-accent-600 text-white px-8 py-4 rounded-xl text-md md:text-2xl  transition-all duration-200 hover:scale-105 shadow-2xl hover:shadow-accent-500/25 uppercase tracking-wide disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  Get Instant Access - $19.95
+                  Get Instant Access - $17.99
                 </button>
                 
                 <p className="text-center text-gray-400 text-sm">
