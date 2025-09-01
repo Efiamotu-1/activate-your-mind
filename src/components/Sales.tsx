@@ -109,14 +109,19 @@ export default function Sales({ className = "" }: SalesProps) {
 
               {/* Main CTA Button */}
               <div className="space-y-4">
+                <a 
+                href="https://www.amazon.com/dp/B0FMP27L3L?ref=cm_sw_r_ffobk_cso_cp_apin_dp_1RTG4715N85JHQEACJBM_1&ref_=cm_sw_r_ffobk_cso_cp_apin_dp_1RTG4715N85JHQEACJBM_1&social_share=cm_sw_r_ffobk_cso_cp_apin_dp_1RTG4715N85JHQEACJBM_1&bestFormat=true&csmig=1"
+                 target="_blank" 
+                 >
               <button
                   type="submit"
                   className="w-full bg-accent-500 hover:bg-accent-400 disabled:bg-accent-600 text-white px-8 py-4 rounded-xl text-md md:text-2xl  transition-all duration-200 hover:scale-105 shadow-2xl hover:shadow-accent-500/25 uppercase tracking-wide disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   Get Instant Access - $17.99
                 </button>
+                  </a> 
                 
-                <p className="text-center text-gray-400 text-sm">
+                <p className="text-center text-gray-400 text-sm pt-4">
                   Secure payment via PayPal • Instant digital delivery
                 </p>
               </div>

@@ -37,28 +37,9 @@ export default function Maillist({ className = "" }: MaillistProps) {
     });
   };
 
-  if (isSubmitted) {
-    return (
-      <section className={`py-16 md:py-24 px-6 bg-gradient-to-b from-burgundy-900/40 to-black ${className}`}>
-        <div className="max-w-[1400px] mx-auto text-center">
-          <div className="bg-gradient-to-br from-accent-500/20 to-burgundy-500/20 rounded-3xl p-12 border-2 border-accent-400/30">
-            <div className="w-20 h-20 bg-accent-500 rounded-full flex items-center justify-center mx-auto mb-8">
-              <Check className="w-10 h-10 text-black" />
-            </div>
-            <h2 className="text-3xl md:text-4xl font-black text-white mb-4">
-              Welcome to the Family! 🎉
-            </h2>
-            <p className="text-xl text-gray-300 mb-6">
-              Your free chapter and exclusive bonuses are on their way to your inbox.
-            </p>
-            <p className="text-lg text-accent-300 font-medium">
-              Check your email (and spam folder) within the next 5 minutes.
-            </p>
-          </div>
-        </div>
-      </section>
-    );
-  }
+
+
+
 
   return (
     <section id="maillist" className={`py-16 md:py-24 px-6 bg-gradient-to-b from-burgundy-900/40 to-black ${className}`}>
@@ -190,6 +171,13 @@ export default function Maillist({ className = "" }: MaillistProps) {
                 >
                   {isSubmitting ? 'Sending...' : 'Get Free Chapter + Bonuses'}
                 </button>
+
+                   {isSubmitted && (
+                  <div className="mt-4 text-center text-gray-300">
+                    <p>Thank you for subscribing, Welcome to the Family! 🎉</p>
+                    <p>Your free chapter and exclusive bonuses are on their way to your inbox.</p>
+                  </div>
+                )}
 
                 {/* Privacy Notice */}
                 <p className="text-center text-gray-400 text-sm">
