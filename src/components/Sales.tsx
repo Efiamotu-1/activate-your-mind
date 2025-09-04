@@ -122,7 +122,7 @@ export default function Sales({ className = "" }: SalesProps) {
                   </a> 
                 
                 <p className="text-center text-gray-400 text-sm pt-4">
-                  Secure payment via PayPal • Instant digital delivery
+                  Secure payment via Amazon • Instant digital delivery
                 </p>
               </div>
 
@@ -154,7 +154,7 @@ export default function Sales({ className = "" }: SalesProps) {
             </div>
             <div className="flex items-center space-x-2">
               <ShieldCheck className="w-5 h-5 text-accent-400" />
-              <span>Secure PayPal Checkout</span>
+              <span>Secure Amazon Checkout</span>
             </div>
             <div className="flex items-center space-x-2">
               <Info className="w-5 h-5 text-accent-400" />

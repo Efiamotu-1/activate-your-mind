@@ -7,7 +7,7 @@ interface AboutBookProps {
 
 export default function AboutBook({ className = "" }: AboutBookProps) {
   return (
-    <section className={`py-16 md:py-24 px-6 ${className}`}>
+    <section id="about" className={`py-16 md:py-24 px-6 ${className}`}>
       <div className="max-w-full mx-auto">
         
         {/* Section Header */}

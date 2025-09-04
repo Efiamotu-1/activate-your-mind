@@ -63,7 +63,7 @@ export default function Testimonials({ className = "" }: TestimonialsProps) {
   ];
 
   return (
-    <section className={`py-16 md:py-24 md:px-12 px-6  ${className}`}>
+    <section id="testimonials" className={`py-16 md:py-24 md:px-12 px-6  ${className}`}>
       <div className="max-w-full mx-auto">
         
         {/* Section Header */}

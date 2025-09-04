@@ -17,17 +17,35 @@ export default function Maillist({ className = "" }: MaillistProps) {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission - replace with actual API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
-    setIsSubmitting(false);
-    setIsSubmitted(true);
-    
-    // Reset form after 5 seconds
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: '', email: '' });
-    }, 5000);
+    try {
+      const response = await fetch('https://formspree.io/f/mrbaolrv', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+        }),
+      });
+
+      if (response.ok) {
+        setIsSubmitted(true);
+        setFormData({ name: '', email: '' });
+        
+        // Reset form after 5 seconds
+        setTimeout(() => {
+          setIsSubmitted(false);
+        }, 5000);
+      } else {
+        throw new Error('Submission failed');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      alert('There was an error submitting your information. Please try again.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -64,7 +82,6 @@ export default function Maillist({ className = "" }: MaillistProps) {
                   Join thousands of readers who are already transforming their lives with daily inspiration and practical wisdom.
                 </p>
               </div>
-
               {/* What You'll Get */}
               <div className="space-y-4">
                 <h3 className="text-2xl font-bold text-white mb-6">What You'll Receive Instantly:</h3>
@@ -164,6 +181,11 @@ export default function Maillist({ className = "" }: MaillistProps) {
                 </div>
 
                 {/* Submit Button */}
+                {isSubmitted ? (
+                  <div className="mt-4 text-center text-gray-300">
+                    <p>Thank you for subscribing, Welcome to the Family! 🎉</p>
+                    <p>Your free chapter and exclusive bonuses are on their way to your inbox.</p>
+                  </div>)  :
                 <button
                   type="submit"
                   disabled={isSubmitting}
@@ -171,13 +193,9 @@ export default function Maillist({ className = "" }: MaillistProps) {
                 >
                   {isSubmitting ? 'Sending...' : 'Get Free Chapter + Bonuses'}
                 </button>
+              }
 
-                   {isSubmitted && (
-                  <div className="mt-4 text-center text-gray-300">
-                    <p>Thank you for subscribing, Welcome to the Family! 🎉</p>
-                    <p>Your free chapter and exclusive bonuses are on their way to your inbox.</p>
-                  </div>
-                )}
+                   
 
                 {/* Privacy Notice */}
                 <p className="text-center text-gray-400 text-sm">

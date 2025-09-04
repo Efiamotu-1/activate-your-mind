@@ -27,7 +27,7 @@ export default function Footer() {
               <li><a href="#about" className="text-white hover:text-accent-400 transition-colors cursor-pointer">About the Book</a></li>
               <li><a href="#author" className="text-white hover:text-accent-400 transition-colors cursor-pointer">About Stacey</a></li>
               <li><a href="#testimonials" className="text-white hover:text-accent-400 transition-colors cursor-pointer">Testimonials</a></li>
-              <li><a href="#contact" className="text-white hover:text-accent-400 transition-colors cursor-pointer">Contact</a></li>
+              {/* <li><a href="#contact" className="text-white hover:text-accent-400 transition-colors cursor-pointer">Contact</a></li> */}
             </ul>
           </div>
           
@@ -64,21 +64,14 @@ export default function Footer() {
           <div className="flex flex-col justify-between items-center gap-6">
             
           <div className="flex items-center space-x-6">
-            <a href="#" className="text-white hover:text-accent-400 transition-colors cursor-pointer">
+            <a href="https://www.facebook.com/share/14HfPtPV3iG/?mibextid=wwXIfr" target='_blank' className="text-white hover:text-accent-400 transition-colors cursor-pointer">
               <Facebook className="w-6 h-6" />
             </a>
-            <a href="#" className="text-white hover:text-accent-400 transition-colors cursor-pointer">
-              <Twitter className="w-6 h-6" />
-            </a>
-            <a href="#" className="text-white hover:text-accent-400 transition-colors cursor-pointer">
+            
+            <a href="https://www.instagram.com/mymindcraft?igsh=MTRlaXY4ajNiZnkxZg%3D%3D&utm_source=qr" target="_blank" className="text-white hover:text-accent-400 transition-colors cursor-pointer">
               <Instagram className="w-6 h-6" />
             </a>
-            <a href="#" className="text-white hover:text-accent-400 transition-colors cursor-pointer">
-              <Youtube className="w-6 h-6" />
-            </a>
-            <a href="#" className="text-white hover:text-accent-400 transition-colors cursor-pointer">
-              <Linkedin className="w-6 h-6" />
-            </a>
+           
           </div>
             
             {/* Copyright */}
