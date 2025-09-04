@@ -79,7 +79,7 @@ export default function Footer() {
               <p className="text-gray-400 text-sm">
                 © 2025 Stacey Craft. All rights reserved.
               </p>
-              <p className="text-gray-500 text-xs mt-1">
+              <p className="text-center text-gray-500 text-xs mt-1">
                 Activate Your Mind - Transform Your Life
               </p>
             </div>
