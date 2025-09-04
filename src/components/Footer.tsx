@@ -1,4 +1,4 @@
-import { Twitter, Instagram, Youtube, Linkedin, Facebook } from 'lucide-react';
+import {Instagram,  Facebook } from 'lucide-react';
 
 export default function Footer() {
   return (
